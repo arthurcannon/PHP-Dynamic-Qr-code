@@ -29,7 +29,7 @@
                     <option value="L">L - Smallest</option>
                     <option value="M">M - Medium</option>
                     <option value="Q">Q - High</option>
-                    <option value="H">H - Best</option>
+                    <option value="H" selected>H - Best</option>
                 </select>
             </div>
         
@@ -41,7 +41,7 @@
                     <option value="300">300</option>
                     <option value="400">400</option>
                     <option value="500">500</option>
-                    <option value="600">600</option>
+                    <option value="600" selected>600</option>
                     <option value="700">700</option>
                     <option value="800">800</option>
                     <option value="900">900</option>
@@ -86,11 +86,11 @@
     <div class="col-6 col-md-1">
                 <label for="format">Format *</label>
                 <select name="format" class="form-control" required="required">
-                    <option value="png" selected>PNG</option>
+                    <option value="png">PNG</option>
                     <option value="gif">GIF</option>
                     <option value="jpeg">JPEG</option>
                     <option value="jpg">JPG</option>
-                    <option value="svg">SVG</option>
+                    <option value="svg" selected>SVG</option>
                     <option value="eps">EPS</option>
                 </select>
     </div>
